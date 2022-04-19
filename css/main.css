@@ -109,6 +109,74 @@ header a:hover {
   font-size: 1.75em;
 }
 
+#presentacion .container {
+  text-align: center;
+  padding: 200px 12px;
+}
+#presentacion .container .texto {
+  width: 50%;
+  max-width: 600px;
+  text-align: initial;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#presentacion .container h2 {
+  margin-top: 0px;
+}
+#presentacion .container .img-container {
+  background-image: url();
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 400px;
+}
+
+#galeria {
+  background-color: #948C75;
+  color: black;
+  text-align: center;
+}
+#galeria .container {
+  padding: 150px 12px;
+}
+#galeria h2 {
+  margin-top: 0;
+  font-size: 3.2em;
+}
+#galeria p {
+  display: none;
+}
+#galeria .carta {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.carta:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/mars-cO1.jpg");
+}
+
+.carta:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url("C:Users\bruno\documents\coderhouseroot_sass_definitivoimgLatest-technologies-for-web-development1.jpg");
+}
+
+.carta:nth-child(3) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/images.jpg");
+}
+
+#contacto .container {
+  text-align: center;
+  padding: 250px 12px;
+}
+#contacto .container li {
+  margin: 16px 0px;
+  font-weight: bold;
+}
+
 #final {
   display: flex;
   flex-direction: column;
